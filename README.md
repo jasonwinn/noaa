@@ -1,7 +1,7 @@
-NOAA Weather Forecasts for Google Go (Golang)
+NOAA Weather Forecasts & Current Conditions
 =============================================
 
-## What Does it Do
+## What It Does
 * Finds the nearest weather station with a given longitude and latitude 
 * Gives the current weather conditions for a weather station
 * Gives a Weather Forecast, given a longitude and latitude (finds the nearest weather station)
