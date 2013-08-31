@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<dwml version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">
+  <head>
+    <product srsName="WGS 1984" concise-name="dwmlByDay" operational-mode="official">
+      <title>NOAA's National Weather Service Forecast by 12 Hour Period</title>
+      <field>meteorological</field>
+      <category>forecast</category>
+      <creation-date refresh-frequency="PT1H">2013-08-12T22:31:45Z</creation-date>
+    </product>
+    <source>
+      <more-information>http://graphical.weather.gov/xml/</more-information>
+      <production-center>Meteorological Development Laboratory<sub-center>Product Generation Branch</sub-center></production-center>
+      <disclaimer>http://www.nws.noaa.gov/disclaimer.html</disclaimer>
+      <credit>http://www.weather.gov/</credit>
+      <credit-logo>http://www.weather.gov/images/xml_logo.gif</credit-logo>
+      <feedback>http://www.weather.gov/feedback.php</feedback>
+    </source>
+  </head>
+  <data>
+    <location>
+      <location-key>point1</location-key>
+      <point latitude="71.29" longitude="-156.79"/>
+    </location>
+    <moreWeatherInformation applicable-location="point1">http://forecast.weather.gov/MapClick.php?textField1=71.29&amp;textField2=-156.79</moreWeatherInformation>
+    <time-layout time-coordinate="local" summarization="12hourly">
+      <layout-key>k-p24h-n5-1</layout-key>
+      <start-valid-time period-name="Today">2013-08-12T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-12T18:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Tomorrow">2013-08-13T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-13T18:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Wednesday">2013-08-14T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-14T18:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Thursday">2013-08-15T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-15T18:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Friday">2013-08-16T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-16T18:00:00-08:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="12hourly">
+      <layout-key>k-p24h-n5-2</layout-key>
+      <start-valid-time period-name="Tonight">2013-08-12T18:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-13T06:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Tomorrow Night">2013-08-13T18:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-14T06:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Wednesday Night">2013-08-14T18:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-15T06:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Thursday Night">2013-08-15T18:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-16T06:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Friday Night">2013-08-16T18:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-17T06:00:00-08:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="12hourly">
+      <layout-key>k-p12h-n10-3</layout-key>
+      <start-valid-time period-name="Today">2013-08-12T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-12T18:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Tonight">2013-08-12T18:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-13T06:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Tomorrow">2013-08-13T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-13T18:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Tomorrow Night">2013-08-13T18:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-14T06:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Wednesday">2013-08-14T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-14T18:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Wednesday Night">2013-08-14T18:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-15T06:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Thursday">2013-08-15T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-15T18:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Thursday Night">2013-08-15T18:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-16T06:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Friday">2013-08-16T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-16T18:00:00-08:00</end-valid-time>
+      <start-valid-time period-name="Friday Night">2013-08-16T18:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-17T06:00:00-08:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="12hourly">
+      <layout-key>k-p5d-n1-4</layout-key>
+      <start-valid-time>2013-08-12T06:00:00-08:00</start-valid-time>
+      <end-valid-time>2013-08-17T06:00:00-08:00</end-valid-time>
+    </time-layout>
+    <parameters applicable-location="point1">
+      <temperature type="maximum" units="Fahrenheit" time-layout="k-p24h-n5-1">
+        <name>Daily Maximum Temperature</name>
+        <value>49</value>
+        <value>43</value>
+        <value>43</value>
+        <value>46</value>
+        <value>47</value>
+      </temperature>
+      <temperature type="minimum" units="Fahrenheit" time-layout="k-p24h-n5-2">
+        <name>Daily Minimum Temperature</name>
+        <value>40</value>
+        <value>37</value>
+        <value>37</value>
+        <value>40</value>
+        <value>39</value>
+      </temperature>
+      <probability-of-precipitation type="12 hour" units="percent" time-layout="k-p12h-n10-3">
+        <name>12 Hourly Probability of Precipitation</name>
+        <value>75</value>
+        <value>0</value>
+        <value>30</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+      </probability-of-precipitation>
+      <hazards time-layout="k-p5d-n1-4">
+        <name>Watches, Warnings, and Advisories</name>
+        <hazard-conditions xsi:nil="true"/>
+      </hazards>
+      <weather time-layout="k-p12h-n10-3">
+        <name>Weather Type, Coverage, and Intensity</name>
+        <weather-conditions weather-summary="Drizzle">
+          <value coverage="areas" intensity="light" weather-type="drizzle" qualifier="none"/>
+          <value coverage="areas" intensity="none" additive="and" weather-type="fog" qualifier="none"/>
+        </weather-conditions>
+        <weather-conditions weather-summary="Mostly Cloudy"/>
+        <weather-conditions weather-summary="Chance Rain">
+          <value coverage="chance" intensity="light" weather-type="rain" qualifier="none"/>
+          <value coverage="areas" intensity="none" additive="and" weather-type="fog" qualifier="none"/>
+        </weather-conditions>
+        <weather-conditions weather-summary="Mostly Cloudy"/>
+        <weather-conditions weather-summary="Mostly Cloudy"/>
+        <weather-conditions weather-summary="Mostly Cloudy"/>
+        <weather-conditions weather-summary="Mostly Cloudy"/>
+        <weather-conditions weather-summary="Mostly Cloudy"/>
+        <weather-conditions weather-summary="Mostly Cloudy"/>
+        <weather-conditions weather-summary="Mostly Cloudy"/>
+      </weather>
+      <conditions-icon type="forecast-NWS" time-layout="k-p12h-n10-3">
+        <name>Conditions Icons</name>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/ra.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/nbkn.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/ra30.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/nbkn.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/bkn.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/nbkn.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/bkn.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/nbkn.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/bkn.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/nbkn.jpg</icon-link>
+      </conditions-icon>
+    </parameters>
+  </data>
+</dwml>
