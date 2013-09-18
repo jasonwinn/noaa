@@ -24,7 +24,6 @@ conditions := station.CurrentConditions()
 conditions.StationId        //    "PABR"
 conditions.Latitude         //    71.29
 conditions.Longitude        //    156.77 
-conditions.ObservationTime  //      
 conditions.TemperatureF     //    50 
 conditions.TemperatureC     //    10
 conditions.WindDirection    //    "Southwest" 
